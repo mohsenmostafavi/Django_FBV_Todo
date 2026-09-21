@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # Installed Apps
-    "accounts.app.AccountsConfig",
-    "todo.app.TodoConfig",
+    "accounts.apps.AccountsConfig",
+    "todo.apps.TodoConfig",
 ]
 
 MIDDLEWARE = [
@@ -119,4 +119,3 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATIC_ROOT = "static/"
-
